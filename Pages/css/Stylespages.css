@@ -24,14 +24,22 @@ li{text-align: center;}
 .caja-boton{background-color: red;width: 20vw;height: 5vh;}
 .contenedor{height: 63vh;width:100vw ;background-color: black;}
 .contenedor{grid-template-columns: 50vw 50vw}
-.caja-contenedor{max height: 63vh;width: 50vw;background-color: red;color: white ;font-weight: 500;text-align:justify ;}
+.caja-contenedor{max height: 63vh;width: 100vw;background-color: red;color: white ;font-weight: 500;text-align:justify}
 section{display: grid;grid-template-columns: 50vw 50vw;grid-template-rows: 63vh;max-height: 63vh;}
-.imagen-quienessomos{height: 200px;width: 200px;image: contain;}
+.imagen-quienessomos{height: 200px;width: 200px;object-fit: fill;}
 .caja-resoluciones{display: grid; grid-template-columns: 30vw;grid-template-rows: 10vh 10vh; justify-items: center;}
 .modulo-cursos{display: inline-block;background-color: black;justify-items: center;width: 100vw;height: 43vh;display: flex;justify-content: space-around;align-items: center;}
 .caja-cursos{background-color: blue;height: 30vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 10vh;}
 .modulo-transacciones{display: inline-block;background-color: black;justify-items: center;width: 100vw;height: 20vh;display: flex;justify-content: space-around;align-items: center;}
 .caja-compras{background-color: green;height: 5vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 1vh;}
-.modulo-contacto{background-color: black;padding-top: 10vh;font-size: 1,5rem;height: 63vh;width: 100vw;text-align: left;justify-content: left;flex-direction: column;}
+.modulo-contacto{background-color: black;padding-top: 10vh;font-size: 1,5rem;height: 63vh;width: 100vw;text-align: left;justify-content: left;flex-direction: row;}
 label{color: white;font-size: 1,5rem;font-weight: 300;}
 a{color: white;font-size: 1rem;text-align: center;}
+@media (max-width:768px){.caja-titulo{height: 28vw;}}
+@media (max-width:574px){h1{font-size: 2rem;}}{h2{font-size: 1rem;}}
+@media (max-width:454px){.caja-titulo{height: 40vw;}}
+@media (max-width:718px){li{font-size: 0.6rem;}}
+@media (max-width:689px){.caja-boton{height: 10vh;}}
+@media (max-width:689px){a{font-size: 0.7rem;}}
+@media (max-width:1029px){.caja-compras{padding-top: 0vh}
+@media (max-width:809px){.caja-compras{font-size: 0.8rem;}}
