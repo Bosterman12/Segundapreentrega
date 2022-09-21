@@ -18,21 +18,21 @@ li{color: white;}
 li{font-size: 1rem;}
 li{text-align: center;}
 .imagen-h1{width: 20vw;height: 30vh}
-.imagen-index{height: 63vh;width: 100vw;}
+
 .caja-titulo{width: 80vw;height: 30vh;margin-left: -5vw;}
 .caja-titulo{background-color: black;}
 .caja-boton{background-color: red;width: 20vw;height: 5vh;}
 .contenedor{height: 63vh;width:100vw ;background-color: black;}
 .contenedor{grid-template-columns: 50vw 50vw}
-.caja-contenedor{max height: 63vh;width: 100vw;background-color: red;color: white ;font-weight: 500;text-align:justify}
+.caja-contenedor{height: 63vh;width: 100vw;background-image: url(../Images/libros-contables.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;display:flex;align-items: center;}
 section{display: grid;grid-template-columns: 50vw 50vw;grid-template-rows: 63vh;max-height: 63vh;}
 .imagen-quienessomos{height: 200px;width: 200px;object-fit: fill;}
-.caja-resoluciones{display: grid; grid-template-columns: 30vw;grid-template-rows: 10vh 10vh; justify-items: center;}
-.modulo-cursos{display: inline-block;background-color: black;justify-items: center;width: 100vw;height: 43vh;display: flex;justify-content: space-around;align-items: center;}
+.caja-resoluciones{height:63vh;width: 100vw;background-image: url(../Images/Quienes\ Somos.jpeg);background-repeat: no-repeat;background-position: center;background-size: cover;display:flex; align-items:center;justify-content: space-around}
+.modulo-cursos{justify-items: center;width: 100vw;height: 43vh;display: flex;justify-content: space-around;align-items: center;background-image: url(../Images/Notebook.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;}
 .caja-cursos{background-color: blue;height: 30vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 10vh;}
 .modulo-transacciones{display: inline-block;background-color: black;justify-items: center;width: 100vw;height: 20vh;display: flex;justify-content: space-around;align-items: center;}
 .caja-compras{background-color: green;height: 5vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 1vh;}
-.modulo-contacto{background-color: black;padding-top: 10vh;font-size: 1,5rem;height: 63vh;width: 100vw;text-align: left;justify-content: left;flex-direction: row;}
+.modulo-contacto{height: 63vh;width: 100vw;background-image: url(../Images/Cuentas.jpg);display:flex;align-items: center;justify-content: space-around;background-repeat: no-repeat;background-position: center;background-size: cover;}
 label{color: white;font-size: 1,5rem;font-weight: 300;}
 a{color: white;font-size: 1rem;text-align: center;}
 @media (max-width:768px){.caja-titulo{height: 28vw;}}
@@ -43,3 +43,4 @@ a{color: white;font-size: 1rem;text-align: center;}
 @media (max-width:689px){a{font-size: 0.7rem;}}
 @media (max-width:1029px){.caja-compras{padding-top: 0vh}
 @media (max-width:809px){.caja-compras{font-size: 0.8rem;}}
+.hero{height: 63vh;width: 100vw;background-image: url(../Images/Curso1.jpg);}

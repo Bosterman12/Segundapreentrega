@@ -18,7 +18,7 @@ li{color: white;}
 li{font-size: 1rem;}
 li{text-align: center;}
 .imagen-h1{width: 20vw;height: 30vh}
-.imagen-index{height: 63vh;width: 100vw;}
+.imagen-index{height: 63vh;width: 100vw;background-image: url(../Images/Fondo.jpeg));}
 .caja-titulo{width: 80vw;height: 14vw;margin-left: -5vw;}
 .caja-titulo{background-color: black;}
 .caja-boton{background-color: red;width: 20vw;height: 5vh;}
@@ -26,3 +26,4 @@ li{text-align: center;}
 @media (max-width:574px){h1{font-size: 2rem;}}{h2{font-size: 1rem;}}
 @media (max-width:454px){.caja-titulo{height: 40vw;}}
 @media (max-width:718px){li{font-size: 0.8rem;}}
+.hero {height: 63vh;width: 100vw ;background-image: url(../Images/Fondo.jpeg);background-repeat: no-repeat;background-position: center;background-size: cover;}
