@@ -21,17 +21,21 @@ li{text-align: center;}
 
 .caja-titulo{width: 80vw;height: 30vh;margin-left: -5vw;}
 .caja-titulo{background-color: black;}
-.caja-boton{background-color: red;width: 20vw;height: 5vh;}
+.caja-boton{background-color: red;width: 20vw;height: 5vh;border: 2px solid black;padding: 0;}
 .contenedor{height: 63vh;width:100vw ;background-color: black;}
 .contenedor{grid-template-columns: 50vw 50vw}
 .caja-contenedor{height: 63vh;width: 100vw;background-image: url(../Images/libros-contables.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;display:flex;align-items: center;}
 section{display: grid;grid-template-columns: 50vw 50vw;grid-template-rows: 63vh;max-height: 63vh;}
-.imagen-quienessomos{height: 200px;width: 200px;object-fit: fill;}
+.imagen-quienessomos{height: 200px;width: 200px;object-fit: fill;} 
 .caja-resoluciones{height:63vh;width: 100vw;background-image: url(../Images/Quienes\ Somos.jpeg);background-repeat: no-repeat;background-position: center;background-size: cover;display:flex; align-items:center;justify-content: space-around}
+.caja-clases{height: 5vh;width: 20vw;border: 2px solid black;text-align: center;background-color: red;}
+.caja-clases :hover{background-color: blue;height: 5vh;}
 .modulo-cursos{justify-items: center;width: 100vw;height: 43vh;display: flex;justify-content: space-around;align-items: center;background-image: url(../Images/Notebook.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;}
-.caja-cursos{background-color: blue;height: 30vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 10vh;}
+.caja-cursos{background-color: blue;height: 30vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 10vh;background:linear-gradient(to left,blue,skyblue);transition-property: background-color;border: 2px solid black;}
+.caja-cursos :hover{background-color: coral;height: 30vh;width: 10vw;padding-top: 10vh;box-shadow: 20px 50px 50px 50px black;}
 .modulo-transacciones{display: inline-block;background-color: black;justify-items: center;width: 100vw;height: 20vh;display: flex;justify-content: space-around;align-items: center;}
-.caja-compras{background-color: green;height: 5vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 1vh;}
+.caja-compras{background-color: green;height: 5vh;width: 10vw;font-size: 1rem;text-align: center;padding-top: 1vh;border: 2px solid black;}
+.caja-compras :hover{background-color: brown;height: 5vh}
 .modulo-contacto{height: 63vh;width: 100vw;background-image: url(../Images/Cuentas.jpg);display:flex;align-items: center;justify-content: space-around;background-repeat: no-repeat;background-position: center;background-size: cover;}
 label{color: white;font-size: 1,5rem;font-weight: 300;}
 a{color: white;font-size: 1rem;text-align: center;}
@@ -44,3 +48,4 @@ a{color: white;font-size: 1rem;text-align: center;}
 @media (max-width:1029px){.caja-compras{padding-top: 0vh}
 @media (max-width:809px){.caja-compras{font-size: 0.8rem;}}
 .hero{height: 63vh;width: 100vw;background-image: url(../Images/Curso1.jpg);}
+
